@@ -1,0 +1,25 @@
+.fish-container {
+
+}
+
+.logo {
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 2px;
+}
+
+.uncaughtFishImage {
+    height: 64px;
+    width: 64px;
+    opacity: 0.15;
+}
+
+img.caughtFishImage {
+    height: 64px;
+    width: 64px;
+    opacity: 1;
+}
