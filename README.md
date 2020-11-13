@@ -9,7 +9,7 @@ a critter and then mark the critter as caught.  The icon will now show as opaque
 
 
 <h2>Technologies</h2>
-I used Ruby on Rails for the backend and the frontend comprises of vanilla JS, HTML, and CSS.
+I used Ruby on Rails for the backend and vanilla JS, HTML, and CSS for the frontend.
 
 <h2>Author</h2>
 <a href="https://github.com/kelseymosh"> Kelsey Oshiro</a>
