@@ -6,7 +6,7 @@ a critter and then mark the critter as caught.  The icon will now show as opaque
 
 <h2>Visuals</h2>
 ![critterpedia_frontend](critterpedia1.png)
-![critterpedia_frontend](critterpedia2.png)
+
 
 <h2>Technologies</h2>
 I used Ruby on Rails for the backend and the frontend comprises of vanilla JS, HTML, and CSS.
