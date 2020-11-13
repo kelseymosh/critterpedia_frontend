@@ -4,15 +4,42 @@ body {
     background-color: #fffdd0;
 }
 
-.fish-container {
+.fish-container, .bugs-container {
     display: flex;
     padding: 20px 50px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
 }
 
 .logo {
     height: 150px;
     width: 150px;
     padding: 10px 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item {
+    background-color:#fffef2;
+}
+
+.nav-link.active {
+    background-color: #05899b;
+}
+
+.nav-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.nav {
+    padding: 15px;
 }
 
 .wrapper {
@@ -29,6 +56,18 @@ body {
     height: 64px;
     width: 64px;
     opacity: 0.23;
+}
+
+.uncaughtBugImage {
+    height: 64px;
+    width: 64px;
+    opacity: 0.23;
+}
+
+img.caughtBugImage {
+    height: 64px;
+    width: 64px;
+    opacity: 1;
 }
 
 img.caughtFishImage {
