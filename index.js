@@ -61,6 +61,8 @@ function renderModalInfo(fish) {
 
 
     let header = document.querySelector("header")
+    let instructions = document.createElement("div")
+    instructions.className = "instructions"
 
     let logo = document.createElement("img")
     logo.className = "logo"
@@ -69,4 +71,8 @@ function renderModalInfo(fish) {
     let h1 = document.createElement("h1")
     h1.textContent = "critterpedia"
 
-    header.append(logo, h1)
+    let h3 = document.createElement("h3")
+    h3.textContent = "hi, my name is kelso and I am the resident representative for slateport island! I've created this app to log the many critters you can catch on your island. simply click a critter to see it's information and mark it as caught if you have captured it"
+    instructions.append(h3)
+
+    header.append(logo, h1, instructions)
