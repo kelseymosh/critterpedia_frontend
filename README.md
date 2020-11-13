@@ -5,7 +5,7 @@ To see information such as sell price, location, times available, and months ava
 a critter and then mark the critter as caught.  The icon will now show as opaque, visually representing that the critter has ben recorded.
 
 <h2>Visuals</h2>
-![critterpedia_frontend](critterpedia1.png)
+![critterpedia_frontend](critterpedia1.jpg)
 
 
 <h2>Technologies</h2>
