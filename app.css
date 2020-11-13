@@ -17,12 +17,13 @@ header {
 .logo {
     height: 150px;
     width: 150px;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: right;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    top: 10px;
 }
 
-.nav-item {
+.nav-link {
     background-color:#fffef2;
 }
 
@@ -39,7 +40,8 @@ header {
 }
 
 .nav {
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .wrapper {
@@ -52,25 +54,13 @@ header {
     padding: 3px 3px;
 }
 
-.uncaughtFishImage {
+.uncaughtFishImage, .uncaughtBugImage {
     height: 64px;
     width: 64px;
     opacity: 0.23;
 }
 
-.uncaughtBugImage {
-    height: 64px;
-    width: 64px;
-    opacity: 0.23;
-}
-
-img.caughtBugImage {
-    height: 64px;
-    width: 64px;
-    opacity: 1;
-}
-
-img.caughtFishImage {
+img.caughtBugImage, img.caughtFishImage {
     height: 64px;
     width: 64px;
     opacity: 1;
@@ -90,7 +80,25 @@ img.caughtFishImage {
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    color:rgb(138, 124, 99)
+    color:rgb(138, 124, 99);
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(138, 124, 99);
+    padding: 10px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.instructions {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    padding: 10px;
 }
 
 .modal-title, .modal-body {
